@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.vpai.todoapp.EditItemActivity"
+    android:background="#ffffff"
     tools:showIn="@layout/activity_edit_item">
 
     <EditText
@@ -29,8 +30,8 @@
         android:text="@string/btnSave"
         android:id="@+id/btnSave"
         android:onClick="saveEditedItem"
-        android:layout_marginLeft="45dp"
-        android:layout_marginStart="45dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
         android:layout_below="@+id/etEditItem"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

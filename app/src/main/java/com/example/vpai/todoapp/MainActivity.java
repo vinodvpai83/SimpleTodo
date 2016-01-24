@@ -3,7 +3,6 @@ package com.example.vpai.todoapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -54,10 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(i, REQUEST_CODE); // brings up the second activity
             }
         });
-
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
     }
 
     @Override

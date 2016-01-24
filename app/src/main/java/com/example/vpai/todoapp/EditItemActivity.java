@@ -15,7 +15,6 @@ public class EditItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_item);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         String editItemText = getIntent().getStringExtra("editItemText");
         etEditItem = (EditText)findViewById(R.id.etEditItem);
